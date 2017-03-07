@@ -1,0 +1,190 @@
+
+%%PACKAGES
+\usepackage{graphics}
+\usepackage[spanish,english]{babel}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{hyperref}
+  \hypersetup{
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=false,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={SIOSE-INNOVA},    % title
+    pdfauthor={Benito Zaragozí},     % author
+    pdfsubject={conference presentation},   % subject of the document
+    pdfcreator={pdflatex},   % creator of the document
+    pdfproducer={SIOSE-INNOVA}, % producer of the document
+    pdfkeywords={siose, land use, land cover, geodatabases, nosql}, % list of keywords
+    pdfnewwindow=true,      % links in new PDF window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=white,          % color of internal links (change box color with linkbordercolor)
+    citecolor=red,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=linkedblue           % color of external links
+}
+  
+  
+
+
+%\setbeamertemplate{background canvas}{\includegraphics[width=\paperwidth, height=\paperheight, keepaspectratio=false]{images/background.png}}
+
+
+%%KEY WORDS TO SPANISH
+\renewcommand{\tablename}{Table}
+\renewcommand{\bibname}{References}
+\renewcommand{\lstlistingname}{Listing}
+
+
+%% LISTING ENVIRONMENTS-----------------------
+% Java/c#
+\lstnewenvironment{Java}{\lstset{
+language=Java,                % choose the language of the code
+ frame=Ltbr,
+ framerule=0.2pt,
+ aboveskip=0.5cm,
+ framextopmargin=3pt,
+ framexbottommargin=3pt,
+ framexleftmargin=0.4cm,
+ framesep=0.4pt,
+ rulesep=0.4pt,
+ %backgroundcolor=\color{white},
+ rulesepcolor=\color{gray},
+ stringstyle=\ttfamily\color{purple},
+ showstringspaces = false,
+ %basicstyle=\small\ttfamily,
+ commentstyle=\color[rgb]{0.133,0.545,0.133},
+ keywordstyle=\color[rgb]{0,0,1},%\bfseries 
+ %morekeywords={text,serial,with,owner,to, replace, function, for, if, begin, loop, exit,
+ %return,returns,cost,row,volatile,into, setof, double, precision,declare,record,reverse,boolean},
+ numbers=left,
+ numbersep=14pt,
+ breaklines=true
+}}{}
+
+% SQL
+\lstnewenvironment{SQL}{\lstset{
+language=SQL,                % choose the language of the code
+ frame=Ltbr,
+ framerule=0.2pt,
+ aboveskip=0.5cm,
+ framextopmargin=3pt,
+ framexbottommargin=3pt,
+ framexleftmargin=0.4cm,
+ framesep=0.4pt,
+ rulesep=0.4pt,
+ %backgroundcolor=\color{white},
+ rulesepcolor=\color{gray},
+ stringstyle=\ttfamily\color{purple},
+ showstringspaces = false,
+ %basicstyle=\small\ttfamily,
+ commentstyle=\color[rgb]{0.133,0.545,0.133},
+ keywordstyle=\color[rgb]{0,0,1},%\bfseries 
+ morekeywords={text,serial,with,owner,to, replace, function, for, if, begin, loop, exit,
+ return,returns,cost,row,volatile,into, setof, double, precision,declare,record,reverse,boolean},
+ numbers=left,
+ numbersep=14pt,
+ breaklines=true
+}}{}
+
+
+% PLR
+\lstnewenvironment{PLR}{\lstset{
+language=R,                % choose the language of the code
+ frame=Ltbr,
+ framerule=0.2pt,
+ aboveskip=0.5cm,
+ framextopmargin=3pt,
+ framexbottommargin=3pt,
+ framexleftmargin=0.4cm,
+ framesep=0.4pt,
+ rulesep=0.4pt,
+ %backgroundcolor=\color{white},
+ rulesepcolor=\color{gray},
+ stringstyle=\ttfamily\color{purple},
+ showstringspaces = false,
+ %basicstyle=\small\ttfamily,
+ commentstyle=\color[rgb]{0.133,0.545,0.133},
+ keywordstyle=\color[rgb]{0,0,1},%\bfseries 
+ morekeywords={text,serial,with,owner,to, replace, function, for, if, begin, loop, exit,
+ return,returns,cost,row,volatile,into, setof, double, precision,declare,record,reverse},
+ numbers=left,
+ numbersep=14pt,
+ breaklines=true
+}}{}
+
+% R
+\lstnewenvironment{R}{\lstset{
+language=R,                % choose the language of the code
+ frame=Ltbr,
+ framerule=0.2pt,
+ aboveskip=0.5cm,
+ framextopmargin=3pt,
+ framexbottommargin=3pt,
+ framexleftmargin=0.4cm,
+ framesep=0.4pt,
+ rulesep=0.4pt,
+ %backgroundcolor=\color{white},
+ rulesepcolor=\color{gray},
+ stringstyle=\ttfamily\color{purple},
+ showstringspaces = false,
+ alsoother={:_\$},
+ %basicstyle=\small\ttfamily,
+ commentstyle=\color[rgb]{0.133,0.545,0.133},
+ keywordstyle=\color[rgb]{0,0,1},%\bfseries 
+ %morekeywords={text,serial,with,owner,to, replace, function, for, if, begin, loop, exit,
+ %return,returns,cost,row,volatile,into, setof, double, precision,declare,record,reverse},
+ numbers=left,
+ numbersep=14pt,
+ breaklines=true
+}}{}
+
+% PHP
+\lstnewenvironment{PHP}{\lstset{
+language=PHP,                % choose the language of the code
+ frame=Ltbr,
+ framerule=0.2pt,
+ aboveskip=0.5cm,
+ framextopmargin=3pt,
+ framexbottommargin=3pt,
+ framexleftmargin=0.4cm,
+ framesep=0.4pt,
+ rulesep=0.4pt,
+ %backgroundcolor=\color{white},
+ rulesepcolor=\color{gray},
+ stringstyle=\ttfamily\color{purple},
+ showstringspaces = false,
+ %basicstyle=\small\ttfamily,
+ commentstyle=\color[rgb]{0.133,0.545,0.133},
+ keywordstyle=\color[rgb]{0,0,1},%\bfseries 
+ numbers=left,
+ numbersep=14pt,
+ breaklines=true
+}}{}
+
+
+%%THEMES
+\setbeamertemplate{blocks}[rounded]
+\setbeamertemplate{navigation symbols}{}
+
+\usecolortheme{whale}
+\usefonttheme{structurebold}
+\useinnertheme{circles}
+\useoutertheme[footline=authortitle, subsection=false]{miniframes} %% Miniframes, hidding the subsections bar
+
+%% Remove title slides and create dummy subsections, so the navigation circles can be displayed
+\AtBeginSection[]{\subsection{}}
+\AtBeginSubsection{}
+
+%%DEFINE PERSONALIZED COLORS
+\definecolor{blendedblue}{rgb}{0.137,0.466,0.741}
+\definecolor{linkedblue}{RGB}{42, 93, 176}
+%%SET COLORS
+\setbeamercolor{structure}{fg=blendedblue}
+\setbeamercolor{titlelike}{parent=structure}
+\setbeamercolor{frametitle}{fg=black}
+\setbeamercolor{title}{fg=black}
+\setbeamercolor{item}{fg=black}

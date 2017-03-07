@@ -1,0 +1,15 @@
+version: '2'
+services:
+  #
+  # [ server stack ]
+  #
+  # - pandoc
+  # - texlive
+  #
+
+  pandoc:
+    image: benizar/pandoc:latest
+    container_name: benizar_pandoc
+    entrypoint: make
+    volumes:
+      - .:/home # Your sources will be in the container's home
