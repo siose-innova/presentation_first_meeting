@@ -3,7 +3,7 @@
 # List files to be made by finding all *.md files and appending .pdf
 
 SRC_FILES = $(filter-out README.md, $(wildcard *.md))
-FINAL := presentation_first_meeting.pdf
+FINAL := slides.pdf
 
 
 all:  $(SRC_FILES)

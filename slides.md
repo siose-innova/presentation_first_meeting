@@ -13,9 +13,9 @@ date: Viernes, 10 de marzo de 2017
 - Trabajo en equipo con el **IGN** y con el equipo que coordina el SIOSE a nivel nacional
 - El SIOSE es una **base de datos geográfica de referencia**
 - Superaremos varios **retos tecnológicos** sobre Información Geográfica
-- El SIOSE y los problemas que estudiaremos son **referentes a nivel europeo e internacional**
+- El SIOSE es un **referente a nivel europeo e internacional**
 - Participar en algunas líneas de publicación científica de alto impacto (JCR, SCOPUS, etc)
-- Abrir **nuevas vías de colaboración y financiación** (H2020, RETOS-COLABORACIÓN, Spin Offs, modelos de utilidad, patentes, etc)
+- Abrir **nuevas vías de colaboración y financiación** (H2020, RETOS-COLABORACIÓN, spin-offs, modelos de utilidad, patentes, etc)
 - ...
 
 ## Equipo investigador
@@ -51,7 +51,7 @@ El RETO que abordamos ha de ser llevado a cabo por un equipo de investigación m
 
 ## Calendario del proyecto
 
-![Cronograma](images/cronograma.png)
+![Cronograma resumen del calendario del proyecto SIOSE-INNOVA](images/cronograma.png)
 
 
 ## Fases, hitos y tareas
@@ -66,8 +66,6 @@ El RETO que abordamos ha de ser llevado a cabo por un equipo de investigación m
     - **Hito 5:** Evaluar la **usabilidad** de los datos SIOSE en distintas plataformas tecnológicas, mediante su aplicación en casos de uso reales.
 
 ## Página web (pronto será *siose-innova.es*)
-
-Se puede organizar un seminario sobre **edición con markdown** como herramienta docente.
 
 ![Webmasters: Benito Zaragozí, José Tomás Navarro y Pepe Torres](images/website.png)
 
@@ -92,9 +90,51 @@ Se puede organizar un seminario sobre **edición con markdown** como herramienta
 ![Riqueza de información del SIOSE](images/modelo_siose.png)
 
 
-## Riqueza descriptiva del SIOSE
+## Ejemplo de polígono simple
 
-Figuras siose clasificado y datos descriptivos
+![Saladar de Aguamarga (sur de Alicante)](images/1-agua-amarga.png)
+
+
+## Polígonos con 3 coberturas distintas
+
+![Polígono industrial las Atalayas (Alicante)](images/2-atalayas.png)
+
+
+## Polígonos con coberturas agregadas
+
+![Universidad de Alicante](images/3-ua.png)
+
+
+## Polígonos más complejos
+
+![Sur del municipio de Ibi (Alicante)](images/4-ibi-sur.png)
+
+
+## Polígonos más complejos
+
+![Sur del municipio de Aspe (Alicante)](images/5-aspe-sur.png)
+
+
+
+
+## Primeras estadísticas descriptivas
+
+nº coberturas| totalpolígonos | km2    | % España 
+-------------|----------------|--------|----------
+           1 |         412021 | 138116 |    15.149
+           2 |          13038 |   2484 |     0.272
+           3 |         520605 | 203254 |    22.294
+           4 |         586959 | 221901 |    24.339
+           5 |         397234 | 156628 |    17.180
+           6 |         239065 |  92289 |    10.123
+           7 |         118741 |  43137 |     4.731
+           8 |          68964 |  20389 |     2.236
+           9 |          45412 |  13741 |     1.507
+          10 |          29678 |   8526 |     0.935
+          11 |          18727 |   5058 |     0.555
+          12 |          10066 |   2442 |     0.268
+          ...|             ...|     ...|     ...
+          34 |              1 |      1 |     0.000
 
 
 ## Objetivos
@@ -109,6 +149,8 @@ Figuras siose clasificado y datos descriptivos
     - Estimación de los usos del suelo (recursos disponibles, comparación de zonas)
 
 
+# Líneas de investigación...
+
 ## Usabilidad actual del SIOSE
 
 1. Identificar los usuarios potenciales
@@ -122,7 +164,7 @@ Figuras siose clasificado y datos descriptivos
 2. Definir una encuesta cualitativa (*likert*) para determinar si los usuarios:
     - Conocen/comprenden el SIOSE
     - Tienen conocimientos sobre bases de datos y modelización
-    - Qué saben de INSPIRE y armonización
+    - ¿Qué saben de INSPIRE y armonización?
     - Aplicaciones potenciales más importantes
     - ...
 
@@ -161,23 +203,18 @@ Figuras siose clasificado y datos descriptivos
 ![Environmental land use conflicts in catchments: A major cause of amplified nitrate in river water (Pacheco & Sanches, 2016)](images/landuse_conflicts_2.png)
 
 
-## Gestión de bases de datos y análisis
+## Aspectos técnicos
 
 - Bases de datos NoSQL
 - Estadísticas **descriptivas** de los usos del suelo de una zona
-- Árboles de clasificación
-- Clasificación supervisada en por los usuarios
+- Minería de Datos y Big Data
+- Clasificación supervisada por los usuarios
 - *Linked data*
-
-## Reclasificaciones temáticas 
-
-- Medir el mejor resultado posible en una reclasificación dada
-- De SIOSE a CLC
-- El SIOSE
+- Incorporar nuevos atributos
+- ...
 
 
 # Puesta en marcha
-
 
 ## Reuniones del equipo de investigación
 
@@ -191,13 +228,13 @@ Figuras siose clasificado y datos descriptivos
 
 ## Seminarios temáticos
 
-Herramientas colaborativas para aumentar la productividad, no duplicar esfuerzos:
+Herramientas colaborativas para aumentar la productividad y no duplicar esfuerzos:
 
-- Gestión de bibliografía con **Mendeley** (BibTeX, CSL)
 - Redacción colaborativa de documentos (dropbox, microsoft online, **google docs**, etc)
+- Gestores de tareas (Trello)
+- Gestión de bibliografía con **Mendeley** (BibTeX, CSL)
 - Análisis automático o semi-automático del SIOSE (herramientas, minería de datos, etc)
 - Control de versiones con Git (GitHub, Gitlab, Bitbucket, etc)
-- Gestores de tareas (Trello)
 
 Desarrollo del proyecto:
 
@@ -205,19 +242,52 @@ Desarrollo del proyecto:
 - Uso de las herramientas desarrolladas
 
 
+## Gestión de bibliografía con Mendeley
+
+![Podría tratarse de un taller de 1,5 horas en la próxima reunión](images/mendeley.png)
+
+
+## Gestión de tareas con Trello
+
+![Podría tratarse de un taller de 1,5 horas en la próxima reunión](images/trello.png)
+
+
 ## Congresos
 
-1. Congreso AGE, 25-27 de octubre de 2017 (Madrid). Resúmenes aceptados:
-  - "Usos del suelo y evolución del poblamiento vegetal: ensayos con LULC-SIOSE y Helianthemum caput-felis Boiss. en el litoral survalenciano"
-  - "Investigación reproducible en el contexto del proyecto SIOSE-INNOVA: una propuesta metodológica"
-2. Congreso TIG AGE 2018 (Valencia)
-3. Congreso GISTAM Abril de 2018 (localización por determinar)
-4. ...
+Resúmenes aceptados en el Congreso AGE, 25-27 de octubre de 2017 (Madrid):
+
+- "Usos del suelo y evolución del poblamiento vegetal: ensayos con LULC-SIOSE y Helianthemum caput-felis Boiss. en el litoral survalenciano"
+- "Investigación reproducible en el contexto del proyecto SIOSE-INNOVA: una propuesta metodológica"
+
+Otros congresos:
+
+1. Congreso TIG AGE 2018 (Valencia)
+2. Congreso GISTAM Abril de 2018 (localización por determinar)
+3. ...
+
+![](images/congreso_age.jpg)
+
 
 ## Contacto con otros grupos/proyectos
 
-1. EAGLE
-2. INSPIRE
-3. EuroSDR
-4. ¿Comisión IGN?
-5. ...
+Grupos de interés:
+
+- [EAGLE](http://land.copernicus.eu/eagle/general-information)
+- [INSPIRE (LU/LC)](http://inspire.ec.europa.eu/Themes/129/2892)
+- [EuroSDR](http://www.eurosdr.net/)
+- ...
+
+Proyectos:
+
+- [SIGEOMOD](http://geofireg.ugr.es/sigeomod/pages/presentacion). Proyecto H2020 en la Universidad de Granada.
+- ...
+
+
+## Integración con EAGLE
+
+![EAGLE integrará los proyectos de LU/LC de toda Europa](images/eagle_concept.png)
+
+
+
+
+
