@@ -25,6 +25,9 @@ All the dependencies you need are packaged in a docker container and are easily 
 2. Edit [slides.md](slides.md)
 3. If you need to change the compilation options, edit the [Makefile](Makefile)
 4. `docker-compose up`
-5. `docker-compose down`
-6. `git add -i` and `commit` your changes
-7. `git push` to this GitHub repository
+5. `git add -i` and `commit` your changes
+6. `git push` to this GitHub repository
+
+Once you're finished with your changes run `docker-compose down` in order to remove the container.
+
+
