@@ -3,7 +3,12 @@ title: SIOSE-INNOVA
 subtitle: Innovaciones técnicas y metodológicas en el Sistema de Información sobre Ocupación del Suelo de España (SIOSE) y su aplicación en estudios geográficos.
 author: 1ª Reunión del Equipo de Investigación
 institute: Universidad de Alicante
-date: Viernes, 10 de marzo de 2017 
+date: Viernes, 10 de marzo de 2017
+
+theme: Amsterdam2
+header-includes:
+    - \AtBeginSection[]{\subsection{}}
+    - \AtBeginSubsection{}
 ---
 
 # Proyecto

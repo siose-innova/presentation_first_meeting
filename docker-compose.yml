@@ -8,8 +8,8 @@ services:
   #
 
   pandoc:
-    image: benizar/pandoc:latest
-    container_name: benizar_pandoc
+    image: benizar/pandoc:16.04
+    container_name: presentation_first_meeting
     entrypoint: make
     volumes:
-      - .:/home # Your sources will be in the container's home
+      - .:/source # Your sources will be in the container's source folder
