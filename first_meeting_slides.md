@@ -161,8 +161,8 @@ nº coberturas| totalpolígonos | km2    | % España
 1. Identificar los usuarios potenciales
     - Colegios profesionales (geógrafos, topógrafos, etc)
     - Institutos cartográficos
-    - Profesorado SIG e investigadores (usos del suelo, geomática, etc)
-    - Ministerios que utilizan SIOSE (Fomento, Medio Ambiente, etc)
+    - Profesorado SIG e investigadores
+    - Ministerios que utilizan SIOSE
     - Empresas y consultoras (p. ej. CARTO)
     - ...
 
